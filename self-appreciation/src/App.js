@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Signin from './components/AUTH/signin';
 
 function App() {
   return (
@@ -18,6 +20,18 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+      <div className="wrapper">
+      <h1>Application</h1>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/sigin">
+            <Signin />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </div>
+      </body>
     </div>
   );
 }
