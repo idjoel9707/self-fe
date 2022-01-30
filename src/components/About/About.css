@@ -1,0 +1,16 @@
+.rectangle {
+transform: skewX(-30deg);
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  text-align: center;
+  border-style: solid;
+  border-width: 0 450px 900px 450px;
+  border-color: transparent transparent #007bff transparent;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .rectangle {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
